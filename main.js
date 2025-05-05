@@ -7,8 +7,11 @@ btns.forEach((button) => {
       btn.classList.remove("choosen");
       button.classList.add("choosen");
     });
-    // imgs.forEach((img) => {
-    //   img.style.display = "none";
-    // });
+    imgs.forEach((img) => {
+      img.style.display = "none";
+      if (img.classList.contains(e.target.dataset.cat)) {
+        img.style.display = "inline-block";
+      }
+    });
   });
 });

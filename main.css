@@ -1,0 +1,40 @@
+img {
+  width: calc((100% / 5) - 10px);
+}
+h1 {
+  width: fit-content;
+  margin: 20px auto;
+  display: block;
+  background-color: rgb(62, 194, 194);
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.bttons {
+  width: fit-content;
+  margin: 0 auto;
+}
+button {
+  border-radius: 10px;
+}
+.bttons button {
+  margin: 10px;
+  padding: 10px;
+  width: 120px;
+  background-color: rgb(62, 194, 194);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bttons button.choosen {
+  background-color: rgb(2, 60, 60);
+  color: white;
+}
+.imgs {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
